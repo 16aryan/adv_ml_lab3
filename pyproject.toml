@@ -16,15 +16,18 @@ classifiers = [
     
 ]
 dependencies = [
+    "jupyterlab==4.6.1",
     "loguru",
     "mkdocs",
+    "pandas==2.2.2",
     "pip",
     "python-dotenv",
     "ruff",
+    "scikit-learn==1.6.1",
     "tqdm",
     "typer",
 ]
-requires-python = "~=3.,12.0"
+requires-python = "~=3.12.0"
 
 
 [tool.ruff]
